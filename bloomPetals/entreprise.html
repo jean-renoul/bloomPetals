@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="présentation de l'entreprise">
+        <title>Entreprise BloomPetals</title>
+        <link rel="stylesheet" href="entreprise.css">
+    </head>
+    <body>
+        <header>
+            <section id="sectionmenu">
+                <nav id="menu">
+                    <ul id="listemenu">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="entreprise.html">Entreprise</a>
+                        </li>
+                        <li>
+                            <a href="realisations.html">Réalisations</a>
+                        </li>
+                        <li>
+                            <a href="realisations.html">Contact</a>
+                        </li>
+                        <li>
+                            <input type="search" name="-barre-recherche" placeholder="...">
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+
+        <main>
+          
+
+            
+            <section class="presentation">
+                <h1>BloomPetals</h1>
+
+                <section id="equipe">
+                    <h2>Notre équipe</h2>
+                        <p>Rencontrez notre équipe de passionnés des fleurs qui apporte une touche de magie florale à chaque création. Composée de quatre femmes extraordinaires et d'un homme talentueux, notre équipe partage une véritable passion pour l'art de la fleuristerie.</p>
+
+                            <h2>Nos Fleuristes</h2>
+                            
+                            <p>Marie-Claire : L'âme créative de l'équipe, Marie-Claire combine couleurs et textures avec une précision artistique, créant des arrangements qui racontent des histoires uniques. <br>
+                            
+                            Sophie : Expert en arrangements floraux pour les mariages et les événements spéciaux, Sophie apporte une élégance intemporelle à chaque bouquet. <br>
+                            
+                            Isabelle : Spécialisée dans les plantes d'intérieur et les succulentes, Isabelle transmet son amour pour la nature à travers des créations uniques et durables. <br>
+                            
+                            Camille : Notre spécialiste en fleurs exotiques, Camille crée des compositions qui évoquent des destinations lointaines, apportant une touche d'aventure à chaque bouquet. <br>
+                            
+                            Antoine : Le seul homme de l'équipe, Antoine apporte sa touche unique en concevant des arrangements contemporains et modernes qui incarnent l'élégance et la simplicité. <br></p>
+                            
+                            <h2>Ce que nous partageons</h2>
+                            
+                            <p>Au-delà de nos compétences uniques, ce qui nous unit en tant qu'équipe, c'est notre engagement envers la qualité, la créativité et le service exceptionnel. Nous croyons que chaque bouquet que nous créons est une œuvre d'art, et nous mettons tout notre cœur pour vous offrir des fleurs qui racontent des histoires et qui suscitent des émotions.
+                            
+                            Laissez notre équipe de fleuristes passionnés donner vie à vos idées florales, que ce soit pour des mariages, des événements, des deuils ou simplement pour égayer votre journée avec des fleurs fraîches et magnifiques.</p> 
+                        
+                </section>  
+
+                <section id="slide">
+                    <img class="photoSlides" src="images/photos de l'équipe-20231102T150636Z-001/photos de l_équipe/photo1.jpg">
+                    <img class="photoSlides" src="images/photos de l'équipe-20231102T150636Z-001/photos de l_équipe/photo6.jpg">
+                    <img class="photoSlides" src="images/photos de l'équipe-20231102T150636Z-001/photos de l_équipe/photo3.jpg">
+                    <img class="photoSlides" src="images/photos de l'équipe-20231102T150636Z-001/photos de l_équipe/photo4.jpg">
+                    <img class="photoSlides" src="images/photos de l'équipe-20231102T150636Z-001/photos de l_équipe/photo5..jpg">
+                    <img class="photoSlides" src="images/photos de l'équipe-20231102T150636Z-001/photos de l_équipe/photo2.jpg">
+                </section>
+                  
+                  <script>
+                  var myIndex = 0;
+                  carousel();
+                  
+                  function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("photoSlides");
+                    for (i = 0; i < x.length; i++) {
+                      x[i].style.display = "none";  
+                    }
+                    myIndex++;
+                    if (myIndex > x.length) {myIndex = 1}    
+                    x[myIndex-1].style.display = "block";  
+                    setTimeout(carousel, 2500);    
+                  }
+                  </script>
+
+            </section>
+              
+              
+        </main>
+
+        <footer>
+
+        </footer>
+        
+    </body>
+
+    </html>

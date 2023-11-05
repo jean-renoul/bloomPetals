@@ -1,0 +1,77 @@
+@font-face{
+    font-family: 'bloom';
+    src:url(polices/blooms_2/Blooms.otf) format("TrueType");
+}
+@font-face{
+    font-family: 'playfair';
+    src:url(polices/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf)
+}
+body{
+    background-image:url(images/meilleur-background.jpg);
+    
+}
+header{
+    background-color:rgba(220, 168, 11, 0.82);
+    flex-direction: row;
+    display: flex;
+    border-radius: 15px;
+}
+#menu{
+    display: flex;
+    flex-grow: 1;
+}
+#sectionmenu{
+    display: flex;
+    flex-grow: 1;
+}
+#listemenu{
+    display: flex;
+    flex-grow: 1;
+}
+li{
+    flex-grow: 1;
+    list-style-type: none;
+    font-family: 'playfair';
+    font-size: 20px;
+
+}
+main{
+    background-color: rgba(255, 192, 203, 0.785);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 100vh;
+}
+h1{
+    font-size: 1000%;
+    font-family: 'bloom';
+    margin: 0 0;
+    text-align: center;
+    justify-content:center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+h2{
+    font-family: 'playfair';
+    font-size: 60px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding
+
+}
+#message{
+    height: 200%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'playfair';
+    font-size: 20px;
+    border:thick double rgba(0, 0, 0, 0.82);
+    border-radius: 15px;
+    margin: 0 15%;
+    text-align: center;
+}

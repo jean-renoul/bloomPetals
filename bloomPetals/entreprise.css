@@ -1,0 +1,80 @@
+@font-face{
+    font-family: 'bloom';
+    src:url(polices/blooms_2/Blooms.otf) format("TrueType");
+}
+@font-face{
+    font-family: 'playfair';
+    src:url(polices/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf)
+}
+body{
+    background-image:url(images/meilleur-backgroundss.jpg);
+    
+}
+header{
+    background-color:rgba(220, 168, 11, 0.82);
+    flex-direction: row;
+    display: flex;
+    border-radius: 15px;
+}
+#menu{
+    display: flex;
+    flex-grow: 1;
+}
+#sectionmenu{
+    display: flex;
+    flex-grow: 1;
+}
+#listemenu{
+    display: flex;
+    flex-grow: 1;
+}
+li{
+    flex-grow: 1;
+    list-style-type: none;
+
+}
+main{
+    background-color: rgba(255, 192, 203, 0.785);
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+.presentation{
+    text-align: center;
+    justify-content:center;
+    display: flex;
+    flex-direction: column;
+    
+}
+h1{
+    font-size: 1000%;
+    font-family: 'bloom';
+    margin: 3vh 0;
+    margin-top: 0;
+    text-align: center;
+    justify-content:center;
+    display: flex;
+    flex-direction: column;
+    
+}
+p,h2,li{
+    font-family: 'playfair';
+    font-size: 20px;
+}
+#slide{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+.photoSlides {
+    max-height: 80%;
+    max-width: 80%;
+    width: auto;
+    height: auto;
+    border:thick double rgba(0, 0, 0, 0.82);
+    border-radius: 15px;
+}
+#equipe{
+    margin: 5% 5%;
+}

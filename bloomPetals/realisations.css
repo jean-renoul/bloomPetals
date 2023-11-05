@@ -1,0 +1,76 @@
+@font-face{
+    font-family: 'bloom';
+    src:url(polices/blooms_2/Blooms.otf) format("TrueType");
+}
+@font-face{
+    font-family: 'playfair';
+    src:url(polices/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf)
+}
+body{
+    background-image:url(images/meilleur-background.jpg);
+    
+}
+header{
+    background-color:rgba(220, 168, 11, 0.82);
+    flex-direction: row;
+    display: flex;
+    border-radius: 15px;
+}
+#menu{
+    display: flex;
+    flex-grow: 1;
+}
+#sectionmenu{
+    display: flex;
+    flex-grow: 1;
+}
+#listemenu{
+    display: flex;
+    flex-grow: 1;
+}
+li{
+    flex-grow: 1;
+    list-style-type: none;
+    font-family: 'playfair';
+    font-size: 20px;
+
+}
+main{
+    background-color: rgba(255, 192, 203, 0.785);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 30vh 30vh;
+    padding-top: 0;    
+}
+h1{
+    font-size: 1000%;
+    font-family: 'bloom';
+    margin: 0 0;
+    text-align: center;
+    justify-content:center;
+    display: flex;
+}
+#realisations{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-top: solid;
+    border-bottom: solid;
+}
+#realisations img,a{
+    max-width: 40vh;
+    max-height: 24vh;
+    width: auto;
+    height: auto;
+    padding: 0.5% 0.5%;
+    border-radius: 15px;
+}
+img:hover{
+    opacity: 70%;
+    cursor: pointer;
+}
+h2{
+    font-family: 'playfair';
+    display: flex;
+    justify-content: center;
+}

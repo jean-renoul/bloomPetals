@@ -1,0 +1,96 @@
+@font-face{
+    font-family: 'bloom';
+    src:url(polices/blooms_2/Blooms.otf) format("TrueType");
+}
+@font-face{
+    font-family: 'playfair';
+    src:url(polices/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf)
+}
+body{
+    background-image:url(images/meilleur-background.jpg);
+}
+header{
+    background-color:rgba(220, 168, 11, 0.82);
+    flex-direction: row;
+    display: flex;
+    border-radius: 15px;
+}
+main{
+    background-color: rgba(255, 192, 203, 0.785);
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+#menu{
+    display: flex;
+    flex-grow: 1;
+}
+#listemenu{
+    display: flex;
+    flex-grow: 1;
+}
+#sectionmenu{
+    display: flex;
+    flex-grow: 1;
+}
+li{
+    flex-grow: 1;
+    list-style-type: none;
+}
+#description-entreprise{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding: 0 1%;    
+}
+h1{
+    font-size: 1000%;
+    font-family: 'bloom';
+    margin-top: 0;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    padding: 0 2%;
+    flex-wrap: wrap;
+}
+.images img{
+    max-width: 30vh;
+    max-height: 18vh;
+    width: auto;
+    height: auto;
+    align-items: center;
+    display: flex;
+    margin: 2% 2%;
+    border:thick double rgba(0, 0, 0, 0.82);
+    border-radius: 15px;    
+}
+.services{
+    margin: 2% 2%;
+    padding: 2% 2%;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    padding: 0 0;    
+}
+p,h2,li{
+    font-family: 'playfair';
+    font-size: 20px;
+    text-align: center;
+}
+#ensemble-services{
+    display: flex;
+    flex-direction: row;
+}
+.paragraphes{
+    border-right: solid;
+    padding: 0 0.5%;
+    
+}
+#paragraphegauche{
+    border-left: solid;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="page de contact du site">
+        <title>Contact BloomPetals</title>
+        <link rel="stylesheet" href="contact.css">
+    </head>
+    <body>
+        <header>
+            <section id="sectionmenu">
+                <nav id="menu">
+                    <ul id="listemenu">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="entreprise.html">Entreprise</a>
+                        </li>
+                        <li>
+                            <a href="realisations.html">Réalisations</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                        <li>
+                            <input type="search" name="-barre-recherche" placeholder="...">
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+
+        <main>
+
+            <h1>BloomPetals</h1>
+
+            <h2>Contact</h2>
+            
+            <form action="" method="post">
+
+                <section>
+                    <label for="civilite">Civilité</label><br>
+                    <select name="civilite" id="civilite">
+                        <option value="" disabled selected hidden></option>
+                        <option value="monsieur">Monsieur</option>
+                        <option value="madame">Madame</option>
+                    </select>
+                </section><br>
+
+                <section>
+                    <label for="prenom">Prénom</label><br>
+                    <input type="text" id="prenom" name="prenom" placeholder="Martin" required>
+                </section><br>
+
+                <section>
+                    <label for="nom">Nom</label><br>
+                    <input type="text" id="nom" name="nom" placeholder="Dupont" required>
+                </section><br>
+
+                <section>
+                    <label for="adresse">Adresse Postale</label><br>
+                    <input type="text" id="adresse" name="adresse" placeholder="8 rue d'Hozier 13002 Marseille" required>
+                </section><br>
+
+                <section>
+                    <label for="checkbox">J'accepte la politique de confidentialité de l'entreprise</label><br>
+                    <input type="checkbox" id="checkbox" name="checkbox" required>
+                </section>
+
+                <section>
+                    <label for="message"></label><br>
+                    <textarea name="message" id="message" cols="70" rows="10" placeholder="Votre message"></textarea>
+                </section><br>
+
+                <section>
+                    <button type="submit">Envoyer mon message</button>
+                </section>
+            </form>
+
+        </main>
+
+       
+       
+        <footer>
+            
+
+
+        </footer>
